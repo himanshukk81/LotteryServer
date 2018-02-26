@@ -1,0 +1,26 @@
+{
+  "name": "LotteryServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hemrajlabaniya@bitbucket.org/proapptive/hashtag_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/proapptive/hashtag_server#readme",
+  "dependencies": {
+    "apn": "^2.1.4",
+    "body-parser": "^1.15.2",
+    "cors": "*",
+    "express": "^4.14.0",
+    "pg": "^6.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}

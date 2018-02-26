@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+ <html>
+     <head>
+         <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+     </head>
+     <script>
+    var status = '<%=data.registration%>';
+    function submit() {
+      if(status == '') {
+        return;
+      }
+      var localhost = document.forms.localhost;
+      localhost.submit();
+    }
+  </script>
+     <body onload="submit()">
+      <h2>Processing Registration...</h2>
+        <form style="display:none" method="post" action="http://localhost/callback?status='<%=data.registration%>'" name="localhost">
+            <input type="submit" value="Submit" /></td>
+         </form>
+     </body>
+ </html>
+         
